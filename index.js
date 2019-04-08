@@ -1,5 +1,5 @@
 // Write your solution in this file!
-const driver = {name: 'Sam', age: 15};
+const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   return Object.assign({}, driver, {[key]: value});
